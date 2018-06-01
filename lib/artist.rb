@@ -25,7 +25,7 @@ class Artist
     if !@@all.include?(self)
       @@all << self
     end 
-    @@all
+    #@@all
   end 
   
   def self.find_or_create_by_name(name) 
