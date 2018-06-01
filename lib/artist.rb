@@ -33,7 +33,7 @@ class Artist
       person = self.all.detect{|person| person.name == name}
     else 
       person = self.new(name)
-      person.name = name
+      #person.name = name
       #@@all << person
     end 
     person 
