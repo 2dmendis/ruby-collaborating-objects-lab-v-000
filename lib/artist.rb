@@ -34,7 +34,7 @@ class Artist
     else 
       person = self.new(name)
       person.name = name
-      @@all << person
+      #@@all << person
     end 
     person 
   end 
