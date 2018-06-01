@@ -16,7 +16,6 @@ class Song
     artOb = Artist.new(artName)
     artOb.save
     song.artist = artOb
-    
     song
   end 
     
