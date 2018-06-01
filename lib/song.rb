@@ -15,7 +15,7 @@ class Song
     song.name = file.split(" - ")[1]
     artName = file.split(" - ")[0]
     artOb = Artist.new(artName)
-    #artOb.save
+    artOb.save
     song.artist = artOb
     song
   end 
