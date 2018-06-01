@@ -22,7 +22,7 @@ class Artist
   end 
   
   def save
-    if !@@all.include?(@name)
+    if @@all.include?(@name)
       
     else 
       @@all << self 
